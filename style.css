@@ -1,0 +1,41 @@
+/*Impostando fonts do google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600&display=swap');
+
+:root
+{ 
+    --cor-titulo:#7C27F2;
+    --cor-fundo-logion:#262626;
+    --cor-font-login:#F2F2F2;
+    --cor-btn-login:#614ED9;
+    --cor-txt-secundario: #0D0D0D;
+    --cor-btn-inserir:;
+    --cor-btn-excluir:#F21616;
+
+}
+  
+body{
+    margin: 0;
+}
+#main-login{
+    margin: 2rem;
+    padding: 1,5rem;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.left-conteudo{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.right-conteudo{
+    flex-direction: column;
+    display: flex;
+    
+}
